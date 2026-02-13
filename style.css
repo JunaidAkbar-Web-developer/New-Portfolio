@@ -937,10 +937,13 @@ align-items: center;
 
 .send-btn button{
   width: 20%;
-  padding:12px 40px;
+  padding:12px 80px;
   background:transparent;
   border: 1px solid #168b81;
   border-radius:4px;
+display: flex;
+align-items: center;
+justify-content: center;
   font-size: 16px;
   font-weight: 800;
   color:#168b81;
@@ -1135,7 +1138,13 @@ padding-bottom: 2vh;
 width: 92%;
 justify-self: center;
 }
-
+.send-btn button{
+  transition: 0.3s;
+}
+.send-btn button:hover{
+  background:#168b81;
+  color: white;
+}
 /* Contact Form */
 .form-grid { grid-template-columns: 1fr; }
 .message-box { grid-column: 1; grid-row: auto; }
