@@ -32,7 +32,7 @@ JavaScript: Logic for theme toggling, mobile menu, and interactive elements.
 Icons: Boxicons and Font Awesome.
 
 ├── Assets/
-│   └── image/          # Portfolio images and profile photos
+│   └── image/ # Portfolio images and profile photos
 ├── index_page/         # Separate HTML files for specific sections
 ├── style.css           # Main stylesheet
 ├── scripte.js          # JavaScript logic
@@ -41,7 +41,7 @@ Icons: Boxicons and Font Awesome.
 Open the project:
 Simply open index.html in your preferred web browser.
 
-Contributing
+Contributing:
 Contributions are welcome! If you have suggestions for improving the UI or adding new features:
 
 Fork the Project.
